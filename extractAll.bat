@@ -1,0 +1,1 @@
+powershell -command "Get-ChildItem './data/Eng-NA/' -Filter *.zip | Expand-Archive -DestinationPath './data/Eng-NA/' -Force" && del /S *.zip

@@ -1,0 +1,1 @@
+for /R ".\data" %%f in (*.cha) do copy %%f ".\transcripts"
